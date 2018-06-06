@@ -14,6 +14,8 @@
 		CEF2FCF720C6BFC7000032B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF2FCF520C6BFC7000032B4 /* LaunchScreen.storyboard */; };
 		CEF2FD0220C6BFC8000032B4 /* AwesomeProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2FD0120C6BFC8000032B4 /* AwesomeProjectTests.swift */; };
 		CEF2FD0D20C6BFC8000032B4 /* AwesomeProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2FD0C20C6BFC8000032B4 /* AwesomeProjectUITests.swift */; };
+		CEF2FD1B20C70257000032B4 /* RandomGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2FD1A20C70257000032B4 /* RandomGenerator.swift */; };
+		CEF2FD2020C70A48000032B4 /* RandomGeneratorUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2FD1E20C7097B000032B4 /* RandomGeneratorUnitTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CEF2FD0820C6BFC8000032B4 /* AwesomeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF2FD0C20C6BFC8000032B4 /* AwesomeProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeProjectUITests.swift; sourceTree = "<group>"; };
 		CEF2FD0E20C6BFC8000032B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF2FD1A20C70257000032B4 /* RandomGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomGenerator.swift; sourceTree = "<group>"; };
+		CEF2FD1E20C7097B000032B4 /* RandomGeneratorUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomGeneratorUnitTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				CEF2FCF320C6BFC7000032B4 /* Assets.xcassets */,
 				CEF2FCF520C6BFC7000032B4 /* LaunchScreen.storyboard */,
 				CEF2FCF820C6BFC7000032B4 /* Info.plist */,
+				CEF2FD1A20C70257000032B4 /* RandomGenerator.swift */,
 			);
 			path = AwesomeProject;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 			children = (
 				CEF2FD0120C6BFC8000032B4 /* AwesomeProjectTests.swift */,
 				CEF2FD0320C6BFC8000032B4 /* Info.plist */,
+				CEF2FD1E20C7097B000032B4 /* RandomGeneratorUnitTests.swift */,
 			);
 			path = AwesomeProjectTests;
 			sourceTree = "<group>";
@@ -256,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF2FD1B20C70257000032B4 /* RandomGenerator.swift in Sources */,
 				CEF2FCEF20C6BFC5000032B4 /* ViewController.swift in Sources */,
 				CEF2FCED20C6BFC5000032B4 /* AppDelegate.swift in Sources */,
 			);
@@ -265,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF2FD2020C70A48000032B4 /* RandomGeneratorUnitTests.swift in Sources */,
 				CEF2FD0220C6BFC8000032B4 /* AwesomeProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
