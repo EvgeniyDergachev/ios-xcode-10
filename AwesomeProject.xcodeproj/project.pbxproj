@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CADB4E8D611590DD0878B7B0 /* Pods_AwesomeProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE489199B94678A494112F39 /* Pods_AwesomeProject.framework */; };
 		CEF2FCED20C6BFC5000032B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2FCEC20C6BFC5000032B4 /* AppDelegate.swift */; };
 		CEF2FCEF20C6BFC5000032B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF2FCEE20C6BFC5000032B4 /* ViewController.swift */; };
 		CEF2FCF220C6BFC5000032B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF2FCF020C6BFC5000032B4 /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33F87ECEB1100406B9F01EB1 /* Pods-AwesomeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeProject/Pods-AwesomeProject.release.xcconfig"; sourceTree = "<group>"; };
+		5A5777A78CCF337DFCE4A4FE /* Pods-AwesomeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeProject/Pods-AwesomeProject.debug.xcconfig"; sourceTree = "<group>"; };
 		CEF2FCE920C6BFC5000032B4 /* AwesomeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF2FCEC20C6BFC5000032B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEF2FCEE20C6BFC5000032B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		CEF2FD0E20C6BFC8000032B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEF2FD1A20C70257000032B4 /* RandomGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomGenerator.swift; sourceTree = "<group>"; };
 		CEF2FD1E20C7097B000032B4 /* RandomGeneratorUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomGeneratorUnitTests.swift; sourceTree = "<group>"; };
+		FE489199B94678A494112F39 /* Pods_AwesomeProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CADB4E8D611590DD0878B7B0 /* Pods_AwesomeProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BEBF87CAA7995C500AEBBE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A5777A78CCF337DFCE4A4FE /* Pods-AwesomeProject.debug.xcconfig */,
+				33F87ECEB1100406B9F01EB1 /* Pods-AwesomeProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B2D4A4AA1B1324ED01B4916F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE489199B94678A494112F39 /* Pods_AwesomeProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CEF2FCE020C6BFC5000032B4 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				CEF2FD0020C6BFC8000032B4 /* AwesomeProjectTests */,
 				CEF2FD0B20C6BFC8000032B4 /* AwesomeProjectUITests */,
 				CEF2FCEA20C6BFC5000032B4 /* Products */,
+				1BEBF87CAA7995C500AEBBE6 /* Pods */,
+				B2D4A4AA1B1324ED01B4916F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEF2FD1120C6BFC8000032B4 /* Build configuration list for PBXNativeTarget "AwesomeProject" */;
 			buildPhases = (
+				37528EC45B76F60BD41817AC /* [CP] Check Pods Manifest.lock */,
 				CEF2FCE520C6BFC5000032B4 /* Sources */,
 				CEF2FCE620C6BFC5000032B4 /* Frameworks */,
 				CEF2FCE720C6BFC5000032B4 /* Resources */,
+				31C20D8DD6CC19252597BFDE /* [CP] Embed Pods Frameworks */,
+				2C21132D317031FA715171E9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +283,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C21132D317031FA715171E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AwesomeProject/Pods-AwesomeProject-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/AppCenter/AppCenterDistributeResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AppCenterDistributeResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwesomeProject/Pods-AwesomeProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31C20D8DD6CC19252597BFDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AwesomeProject/Pods-AwesomeProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FlatUIKit/FlatUIKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlatUIKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AwesomeProject/Pods-AwesomeProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37528EC45B76F60BD41817AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AwesomeProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CEF2FCE520C6BFC5000032B4 /* Sources */ = {
@@ -436,6 +520,7 @@
 		};
 		CEF2FD1220C6BFC8000032B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A5777A78CCF337DFCE4A4FE /* Pods-AwesomeProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +538,7 @@
 		};
 		CEF2FD1320C6BFC8000032B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F87ECEB1100406B9F01EB1 /* Pods-AwesomeProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
